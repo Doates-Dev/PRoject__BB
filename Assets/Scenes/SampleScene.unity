@@ -336,7 +336,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69c3e550fa0a2e14992b6a91ccc719e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TopUprightAssist
-  uprightSpin: 30
+  uprightSpin: 31
   fullStrengthSpin: 50
   strength: 1000
   tiltDamping: 20
