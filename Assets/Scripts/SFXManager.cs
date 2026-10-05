@@ -43,7 +43,7 @@ public class SFXManager : MonoBehaviour
     public void PlayTopHit(Vector3 position, float intensity = 1f)
     {
         
-        Debug.Log("PlayTopHit called");
+        
         Play(topHitClips, position, intensity);
 
         

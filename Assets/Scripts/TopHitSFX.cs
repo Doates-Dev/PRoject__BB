@@ -12,9 +12,7 @@ public class TopHitSFX : MonoBehaviour
 
     void OnCollisionEnter(Collision c)
     {
-        Debug.Log("Manager object", SFXManager.Instance);
-        Debug.Log($"{name} collided with {c.gameObject.name}, tag: {c.gameObject.tag}, speed: {c.relativeVelocity.magnitude:F1}");
-        Debug.Log($"SFX: manager {(SFXManager.Instance == null ? "NULL" : "ok")}");
+        
         if (SFXManager.Instance == null) return;
         if (!c.gameObject.CompareTag(topTag)) return;
 
