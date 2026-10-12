@@ -127,6 +127,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2833251543224612940, guid: 3e16128e053a1644ba3b6b8eb5a9fbfc, type: 3}
+      propertyPath: minImpactSpeed
+      value: 0.001
+      objectReference: {fileID: 0}
     - target: {fileID: 5791781538031423071, guid: 3e16128e053a1644ba3b6b8eb5a9fbfc, type: 3}
       propertyPath: turnSpeed
       value: 5
@@ -179,6 +183,9 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6778482330748075978, guid: 3e16128e053a1644ba3b6b8eb5a9fbfc, type: 3}
+      insertIndex: 5
+      addedObject: {fileID: 1024736781}
     - targetCorrespondingSourceObject: {fileID: 6778482330748075978, guid: 3e16128e053a1644ba3b6b8eb5a9fbfc, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1024736766}
@@ -987,6 +994,24 @@ MonoBehaviour:
   blurStartSpin: 60
   blurFullSpin: 120
   blurMaxAlpha: 0.6
+--- !u!114 &1024736781
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1024736752}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5584ae90ded03f742a5789bd9a46ef25, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SpinVisual
+  visual: {fileID: 0}
+  maxDegreesPerFrame: 25
+  blurRenderer: {fileID: 0}
+  blurStartSpin: 60
+  blurFullSpin: 120
+  blurMaxAlpha: 0.6
 --- !u!1001 &1062372589
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1263,6 +1288,10 @@ PrefabInstance:
     - target: {fileID: 891090782172599618, guid: 4aac26465c2cfc2449fb6e6acc24ced7, type: 3}
       propertyPath: m_Name
       value: TurtleBB
+      objectReference: {fileID: 0}
+    - target: {fileID: 3836119739500406995, guid: 4aac26465c2cfc2449fb6e6acc24ced7, type: 3}
+      propertyPath: blurStartSpin
+      value: 100
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
